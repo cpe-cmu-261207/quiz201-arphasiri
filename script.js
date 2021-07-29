@@ -7,7 +7,9 @@ const color = document.querySelector('#color')
 // define more constants and variables here
 
 btn_toggle.onclick = () => {
-  calculation.append 
+  btn_toggle.innerHTML = 'Show Author'
+  author.innerHTML = '640631107'
+  
 }
 
 // more codes for Search and Reset buttons here
